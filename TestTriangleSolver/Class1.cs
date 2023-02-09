@@ -169,4 +169,113 @@ namespace TestTriangleSolver
         }
     }
 
+    public class Zerolengthtringle
+    {
+        [Test]
+        public void AnalyzeTriangle_Input10and0and15_ValidEquilateral()
+        {
+            //Arrange
+            int firstSide = 10;
+            int secondSide = 0;
+            int thirdSide = 15;
+
+            string expected = "At least one side of your triangle has a zero length and is thus invalid";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_Input0and0and15_ValidEquilateral()
+        {
+            //Arrange
+            int firstSide = 0;
+            int secondSide = 0;
+            int thirdSide = 15;
+
+            string expected = "At least one side of your triangle has a zero length and is thus invalid";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_Input0and58and0_ValidEquilateral()
+        {
+            //Arrange
+            int firstSide = 0;
+            int secondSide = 58;
+            int thirdSide = 0;
+
+            string expected = "At least one side of your triangle has a zero length and is thus invalid";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+    }
+
+    public class Invalid
+    {
+        [Test]
+        public void AnalyzeTriangle_Input13and_1and14_InvalidEquilateral()
+        {
+            //Arrange
+            int firstSide = 13;
+            int secondSide = -1;
+            int thirdSide = 14;
+
+            string expected = "Based on the values entered, the triangle is INVALID";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_Input1and2and4_InvalidEquilateral()
+        {
+            //Arrange
+            int firstSide = 1;
+            int secondSide = 2;
+            int thirdSide = 4;
+
+            string expected = "Based on the values entered, the triangle is INVALID";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+
+        [Test]
+        public void AnalyzeTriangle_Input_2and_5and_3_InValidEquilateral()
+        {
+            //Arrange
+            int firstSide = -2;
+            int secondSide = -5;
+            int thirdSide = -3;
+
+            string expected = "Based on the values entered, the triangle is INVALID";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+    }
+
 }
