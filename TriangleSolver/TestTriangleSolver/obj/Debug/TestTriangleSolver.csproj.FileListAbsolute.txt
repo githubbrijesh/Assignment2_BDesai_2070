@@ -1,0 +1,17 @@
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\nunit.engine.dll
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\nunit.engine.api.dll
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\nunit.engine.core.dll
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\testcentric.engine.metadata.dll
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\TestTriangleSolver.dll
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\TestTriangleSolver.pdb
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\nunit.framework.dll
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\TriangleSolver.dll
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\TriangleSolver.pdb
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\bin\Debug\nunit.framework.xml
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\obj\Debug\TestTriangleSolver.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\obj\Debug\TestTriangleSolver.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\obj\Debug\TestTriangleSolver.csproj.CopyComplete
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\obj\Debug\TestTriangleSolver.dll
+C:\Users\admin\Downloads\TriangleSolver\TestTriangleSolver\obj\Debug\TestTriangleSolver.pdb
